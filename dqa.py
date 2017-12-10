@@ -90,7 +90,6 @@ if __name__ == "__main__":
             sleep(0.02)
             if reward == 100:
                 reward = None
-            
             if done:
                 print ('Episode done', e, )
                 break
